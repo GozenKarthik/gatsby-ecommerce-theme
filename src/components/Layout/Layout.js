@@ -25,6 +25,18 @@ const Layout = ({ props, children, disablePaddingBottom = false }) => {
           charset="UTF-8"
           href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
         />
+        	<script>
+		{`	let __GOZEN_NOTIFY__ = {
+				debug: true
+			}`}
+		</script>
+        <script
+			src="./embed.js"
+			id="gozen-notify-campaign"
+			data-campaign="6ce4fa6b-4a64-4a2b-9ea5-976af258202c"
+        >
+          
+    </script>
       </Helmet>
 
       <Header />
