@@ -5,8 +5,8 @@
     //@ts-ignore
     // import {fetch} from 'whatwg-fetch'
     //TODO : polyfill fetch
-    // const apiUrl = process.env.API_SERVER;
-    const apiUrl = "http://localhost:8080";
+    const apiUrl = process.env.API_SERVER;
+    // const apiUrl = "http://localhost:8080";
     self.addEventListener('push', async (event) => {
         if (!event.data)
             return;
