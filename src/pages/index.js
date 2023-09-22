@@ -49,15 +49,15 @@ const IndexPage = () => {
       </div>
 
       {/* Collection Container */}
-      <div className={styles.collectionContainer}>
+      {/* <div className={styles.collectionContainer}>
         <Container size={'large'}>
           <Title name={'New Collection'} />
           <ProductCollectionGrid />
         </Container>
-      </div>
+      </div> */}
 
       {/* New Arrivals */}
-      <div className={styles.newArrivalsContainer}>
+      {/* <div className={styles.newArrivalsContainer}>
         <Container>
           <Title name={'New Arrivals'} link={'/shop'} textLink={'view all'} />
           <ProductCardGrid
@@ -68,10 +68,10 @@ const IndexPage = () => {
             data={newArrivals}
           />
         </Container>
-      </div>
+      </div> */}
 
       {/* Highlight  */}
-      <div className={styles.highlightContainer}>
+      {/* <div className={styles.highlightContainer}>
         <Container size={'large'} fullMobile>
           <Highlight
             image={'/highlight.png'}
@@ -84,36 +84,36 @@ const IndexPage = () => {
             link={'/shop'}
           />
         </Container>
-      </div>
+      </div> */}
 
       {/* Promotion */}
-      <div className={styles.promotionContainer}>
+      {/* <div className={styles.promotionContainer}>
         <Hero image={'/banner2.png'} title={`-50% off \n All Essentials`} />
         <div className={styles.linkContainers}>
           <Link to={'/shop'}>WOMAN</Link>
           <Link to={'/shop'}>MAN</Link>
         </div>
-      </div>
+      </div> */}
 
       {/* Quote */}
-      <Quote
+      {/* <Quote
         bgColor={'var(--standard-light-grey)'}
         title={'about Sydney'}
         quote={
           '“We believe in two things: the pursuit of quality in everything we do, and looking after one another. Everything else should take care of itself.”'
         }
-      />
+      /> */}
 
       {/* Blog Grid */}
-      <div className={styles.blogsContainer}>
+      {/* <div className={styles.blogsContainer}>
         <Container size={'large'}>
           <Title name={'Journal'} subtitle={'Notes on life and style'} />
           <BlogPreviewGrid data={blogData} />
         </Container>
-      </div>
+      </div> */}
 
       {/* Promotion */}
-      <div className={styles.sustainableContainer}>
+      {/* <div className={styles.sustainableContainer}>
         <Hero
           image={'/banner3.png'}
           title={'We are Sustainable'}
@@ -124,7 +124,7 @@ const IndexPage = () => {
           maxWidth={'660px'}
           ctaStyle={styles.ctaCustomButton}
         />
-      </div>
+      </div> */}
 
       {/* Social Media */}
       <div className={styles.socialContainer}>
