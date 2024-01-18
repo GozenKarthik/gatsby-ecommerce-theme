@@ -31,7 +31,7 @@ const Layout = ({ props, children, disablePaddingBottom = false }) => {
 			}`}
         </script>
         <script
-          src="https://dev-notify-render-engine.netlify.app/embed.js"
+          src="https://dev-notify-render-engine.netlify.app/embedTest.js"
           id="gozen-notify-campaign"
           data-campaign="6ce4fa6b-4a64-4a2b-9ea5-976af258202c"
         ></script>
