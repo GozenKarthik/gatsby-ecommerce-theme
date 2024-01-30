@@ -25,7 +25,7 @@ const Layout = ({ props, children, disablePaddingBottom = false }) => {
           charset="UTF-8"
           href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
         />
-        <script>
+        {/* <script>
           {`	let __GOZEN_NOTIFY__ = {
 				debug: true
 			}`}
@@ -34,6 +34,17 @@ const Layout = ({ props, children, disablePaddingBottom = false }) => {
           src="https://dev-notify-render-engine.netlify.app/embedTest.js"
           id="gozen-notify-campaign"
           data-campaign="6ce4fa6b-4a64-4a2b-9ea5-976af258202c"
+        ></script> */}
+
+        <script>
+          {`	let __GOZEN_NOTIFY__ = {
+				debug: true
+			}`}
+        </script>
+        <script
+          src="https://render-engine.notify.gozen.io/embed.js"
+          id="gozen-notify-campaign"
+          data-campaign="04a77558-fd95-44db-a539-bb0663fd832e"
         ></script>
       </Helmet>
 
