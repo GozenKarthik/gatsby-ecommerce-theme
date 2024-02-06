@@ -45,7 +45,7 @@ const Layout = ({ props, children, disablePaddingBottom = false }) => {
         <script
           src="https://dev-notify-render-engine.netlify.app/embed.js"
           id="gozen-notify-campaign"
-          data-campaign="bf03ad2b-4a3e-4884-abee-0571ac66f5ac"
+          data-campaign="497334d0-18d8-4e70-80c9-159626a7a82c"
         ></script>
       </Helmet>
 
