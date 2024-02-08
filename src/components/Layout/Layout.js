@@ -25,27 +25,16 @@ const Layout = ({ props, children, disablePaddingBottom = false }) => {
           charset="UTF-8"
           href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
         />
-        {/* <script>
-          {`	let __GOZEN_NOTIFY__ = {
-				debug: true
-			}`}
-        </script>
-        <script
-          src="https://dev-notify-render-engine.netlify.app/embedTest.js"
-          id="gozen-notify-campaign"
-          data-campaign="6ce4fa6b-4a64-4a2b-9ea5-976af258202c"
-        ></script> */}
 
         <script>
           {`	let __GOZEN_NOTIFY__ = {
 				debug: true
 			}`}
         </script>
-
         <script
-          src="https://dev-notify-render-engine.netlify.app/embed.js"
+          src="https://render-engine.notify.gozen.io/embed.js"
           id="gozen-notify-campaign"
-          data-campaign="08b45c15-25f7-4024-a3b3-cd9c062fc81a"
+          data-campaign="b02a4ef3-6f69-4b73-8909-98bd01b2a98a"
         ></script>
       </Helmet>
 
